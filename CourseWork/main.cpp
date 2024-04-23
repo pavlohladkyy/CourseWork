@@ -41,8 +41,6 @@ int main() {
         std::cout << "Window: " << (*it).getTitle() << std::endl;
         std::cout << "Top Left: (" << (*it).getTopLeft().first << ", " << (*it).getTopLeft().second << ")" << std::endl;
         std::cout << "Bottom Right: (" << (*it).getBottomRight().first << ", " << (*it).getBottomRight().second << ")" << std::endl;
-        std::cout << "Background Color: " << (*it).getBackgroundColor() << std::endl;
-        std::cout << "Menu Items: " << (*it).getMenu().size() << std::endl;
         std::cout << std::endl;}
     // Execute menu for window management
     myWindows.executeMenu();

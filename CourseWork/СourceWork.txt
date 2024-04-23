@@ -1,6 +1,9 @@
-Top left corner coordinates (1;5)
-Bottom right corner coordinates (5;1)
+Top left corner coordinates (1;9)
+Bottom right corner coordinates (9;1)
 Background color: 
 Title: program1
 Menu:
+add
+remove
+move
 
